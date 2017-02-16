@@ -21,18 +21,33 @@ pre {
 }
 
 a {
+  background-color: #057;
   color: #000;
-
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000;
+  padding: 2px 2px 2px 1px;
+  text-decoration: none;
   &:visited {
-    color: #666;
+    color: #fff;
   }
 
   &:hover {
     color: #fff;
-    background-color: #000;
+    background-color: #605;
   }
 }
+#btn {
+	background-color: #500;
+  &:visited {
+    color: #fff;
+  }
 
+  &:hover {
+    color: #fff;
+    background-color: #aa0;
+  }
+}
 th {
   padding-bottom: 5px;
 }
